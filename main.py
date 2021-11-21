@@ -20,4 +20,6 @@ print(me.get_battery())
 if startCounter == 0:
     me.takeoff()
     me.get_height()
+    me.move_forward(20)
+    me.move_back(40)
     me.land()
